@@ -16,6 +16,12 @@ fun Form(modifier : Modifier) {
     Column(modifier = modifier) {
         Text(
             text = "Form Data Diri",
+            color = Color.White,
+            fontSize = 30.sp,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 20.dp, bottom = 20.dp)
         )
     }
 }
